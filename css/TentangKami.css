@@ -1,0 +1,430 @@
+/* Judul Utama */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Heading */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-size: 15 px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background: #f0f0f0;
+}
+header {
+    background: linear-gradient(to right, #00a6a6, #007068);
+    color:white;
+    text-align: center;
+    padding: 20px 0;
+}
+h1 {
+    margin: 0;
+}
+nav {
+    background: linear-gradient(to right, #00a6a6, #007068);
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, .1);
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #00a6a6, #007068);
+}
+nav ul li {
+    margin: 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+nav ul li a:hover 
+nav ul li a:active {
+    background-color: #005f5f;
+}
+
+/* Body */
+section {
+    padding: 50px 0px 50px 0px;
+}
+section h3 {
+    font-size: 30px;
+}
+#aboutus,
+#team,
+p .sejarah {
+    text-align: justify;
+}
+#blog {
+    text-align: center;
+    align-items: center;
+}
+section p.ringkasan {
+    font-style: italic;
+    font-size: 18px;
+    color: #ababab;
+}
+section .konten-isi p {
+    font-style: normal;
+}
+nav.putih {
+    background-color: #fff;
+}
+nav.putih .tombol-menu .garis {
+    background-color: #333;
+}
+nav.putih ul li a {
+    color: #333;
+}
+nav .logo img.hitam {
+    display: none;
+}
+section.abuabu {
+    background-color: #f5f6f6;
+}
+.support,
+.tim,
+.blog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.support h6,
+.tim h6 {
+    margin: 0px;
+    margin-top: 20px;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.support img {
+    width: 50px;
+}
+.support div,
+.tim div {
+    text-align: center;
+    width: 26%;
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+}
+.gallery div {
+    padding: 10px;
+}
+.gallery div img {
+    height: 100px;
+    border-radius: 5px;
+}
+.gallery div img:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+section.quote {
+    background: url("walpapper.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    padding: 100px;
+}
+.tim img {
+    width: 100%;
+    box-shadow: 0px -10px 30px #ccc;
+    border-radius: 5px;
+    border-radius: 50%;
+}
+.blog .area {
+    width: 47%;
+    box-shadow: 0px -10px 30px #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.blog div.area div {
+    width: 50%;
+}
+.blog .area .gambar {
+    border-radius: 5px 0px 0px 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+.blog .area .text article {
+    padding: 40px;
+}
+.blog .area .text article h4 {
+    margin: 0px;
+}
+.blog .area .text article a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+.blog .area .text article a:hover {
+    color: #ccc;
+}
+.container {
+    max-width: 960px;
+    height: 450px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba (0, 0, 0, .1);
+    width: 1000px;
+    position: relative;
+}
+.container1 {
+    max-width: 960px;
+    height: 100px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba (0, 0, 0, .1);
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.library {
+    text-align: center;
+}
+.library h2 {
+    color: #666; 
+}
+.library h9 {
+    color: #ffffff; 
+}
+.list-guru {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.kartu-guru {
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+.kartu-guru img {
+    width: 80%;
+    align-items: center;
+    border-radius: 50%;
+}
+.kartu-guru p {
+    font-family: 'poppins' sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+.p1 {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.image-content {
+    background-color: aqua;
+    margin-top: 40px;
+    margin-left: 325px;
+    width: 480px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kolom1 {
+    margin-top: 100px;
+}
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+}
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    text-align: justify;
+}
+a.tbl-biru {
+    background-color:  #00a6a6;
+    border: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+a.tbl-biru:hover {
+    background: grey;
+    text-decoration: none;
+    border-radius: 80px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    color: #666;
+    width: 100%;
+    line-height: 50px;
+}
+h9 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+.rata {
+    text-align: center;
+    grid: 100%;
+}
+.aturan {
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+.list-aturan {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Footer */
+#contact {
+    background: linear-gradient(to right, #00a6a6, #007068) ;
+    padding: 50px 50px 50px 50px;
+}
+.container-footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+h3 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+}
+footer {
+    background: linear-gradient(to right, #00a6a6, #007068) ;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Tambahan */
+@media screen and (max-width: 991.98px) {
+    .layar-dalam {
+      width: 100%;
+      height: 100%;
+    }
+    .wrapper {
+        width: 90%;
+    }
+    .image-content {
+        margin: auto;
+    }
+    nav .menu ul {
+      display: none;
+      margin-top: 60px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+    nav .menu ul li {
+      width: 100%;
+      border-bottom: 1px solid #ccc;
+      background-color: #fff;
+      line-height: 40px;
+    }
+    nav .menu ul li a {
+      color: #333;
+    }
+    .tombol-menu {
+      display: flex;
+    }
+    .blog .area {
+      display: block;
+    }
+    .blog div.area div {
+      width: 100%;
+    }
+    .blog .area .gambar {
+      border-radius: 5px 5px 0px 0px;
+      height: 200px;
+    }
+    .support {
+      display: block;
+    }
+    .support div {
+      width: 100%;
+      padding-bottom: 30px;
+    }
+    .container {
+        width: 100%;
+    }
+    section {
+        display: block;
+    }
+    section img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .kartu-guru {
+        width: 20%;
+        height: 100%;
+    }
+}

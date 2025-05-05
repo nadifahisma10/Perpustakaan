@@ -1,0 +1,144 @@
+/* Judul Utama */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Heading */
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background: #f0f0f0;
+}
+header {
+    background: linear-gradient(to right, #00a6a6, #007068);
+    color:white;
+    text-align: center;
+    padding: 20px 0;
+}
+h1 {
+    margin: 0;
+}
+nav {
+    background: linear-gradient(to right, #00a6a6, #007068);
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, .1);
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #00a6a6, #007068);
+}
+nav ul li {
+    margin: 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+nav ul li a:hover 
+nav ul li a:active {
+    background-color: #005f5f;
+}
+
+/* Body */
+.container {
+    max-width: 960px;
+    height: 720px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba (0, 0, 0, .1);
+    width: 1200px;
+    position: relative;
+}
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.library {
+    text-align: center;
+}
+.library h2 {
+    color: #666; 
+}
+.berita-partner {
+    text-align: center;
+    margin: 0 auto;
+}
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kolom1 {
+    margin-top: 100px;
+}
+.kolom .deskripsi {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+}
+.berita-partner {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Footer */
+#contact {
+    background: linear-gradient(to right, #00a6a6, #007068) ;
+    padding: 50px 50px 50px 50px;
+}
+.container-footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+h3 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    line-height: 50px;
+}
+footer {
+    background: linear-gradient(to right, #00a6a6, #007068) ;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Tambahan */
+@media screen and (max-width:991.98px) { 
+    .container {
+        width: 100%;
+        height: 100%;
+    } 
+    .wrapper {
+        width: 90%;
+    }
+    .kolom {
+        width: 100%;
+        height: 100%;
+    }
+}
